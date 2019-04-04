@@ -8,11 +8,11 @@ modelo.P = poe.RangeSet(1, 2)
 modelo.B = poe.Set()
 
 # nivel de gostosura dos bombons
-modelo.c = poe.Param(modelo.B, within=poe.NonNegativeIntegers)
+modelo.c = poe.Param(modelo.B, within=poe.Binary)
 
 # variavel de decisao: 1, se o bombom i for para a crianca j
 #                      0, caso contrario
-modelo.x = poe.Var(modelo.B, modelo.P, within=poe.Binary)
+modelo.x = poe.Var(modelo.B, modelo.P, within=poe.NonNegativeIntegers)
 
 
 def funcao_objetivo(modelo):

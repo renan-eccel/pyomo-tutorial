@@ -20,7 +20,7 @@ Solver:
   Termination condition: optimal
   Id: 3
   Error rc: 0
-  Time: 0.031230926513671875
+  Time: 0.6008639335632324
 # ----------------------------------------------------------
 #   Solution Information
 # ----------------------------------------------------------
@@ -34,13 +34,13 @@ Solution:
     OBJ:
       Value: 0
   Variable:
-    x[1,2]:
+    x[1,1]:
       Value: 1
     x[2,2]:
       Value: 1
-    x[3,1]:
+    x[3,2]:
       Value: 1
-    x[4,1]:
+    x[4,2]:
       Value: 1
     x[5,1]:
       Value: 1
